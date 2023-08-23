@@ -1,1 +1,19 @@
 /* Add your CSS code below */
+a {
+  font-weight: bold;
+  color: red;
+  text-decoration: none;
+}
+
+.message__time {
+  font-size: 0.9 rem;
+}
+
+.message {
+  border-left: solid 2px blue;
+  padding-bottom: 50px;
+}
+
+.message:first-child {
+  opacity: 50%;
+}
